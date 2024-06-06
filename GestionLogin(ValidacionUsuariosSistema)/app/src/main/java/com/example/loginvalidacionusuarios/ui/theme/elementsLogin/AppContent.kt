@@ -16,10 +16,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.loginvalidacionusuarios.Login.state.LoginViewModel
+import com.example.loginvalidacionusuarios.Pantallas.Login.state.LoginViewModel
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AppContentLogin(navController: NavController) {
+fun AppContentLogin() {
 
     val vm: LoginViewModel = viewModel()
 

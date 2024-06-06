@@ -1,11 +1,11 @@
-package com.example.loginvalidacionusuarios.Login.state
+package com.example.loginvalidacionusuarios.Pantallas.Login.state
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import com.example.compose_components.examples.List.loginudf.data.repository.UserRepository
-import com.example.loginvalidacionusuarios.Login.data.Model.Usuarios
+import com.example.loginvalidacionusuarios.Pantallas.Login.data.Model.Usuarios
 
 class LoginViewModel : ViewModel() {
 
